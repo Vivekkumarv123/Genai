@@ -1,24 +1,48 @@
-# Ignore build output
+# Build output
 build/
 
-# Ignore NetBeans project files
+# NetBeans project files
 nbproject/private/
+nbproject/Makefile-
+nbproject/Makefile-*
+nbproject/Makefile
+nbproject/.*.properties
 
-# Ignore compiled Java classes
+# Compiled Java classes
 *.class
 
-# Ignore log files
+# Logs
 *.log
 
-# Ignore OS generated files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Ignore node_modules if using Node.js
+# Node.js
 node_modules/
+package-lock.json
+npm-debug.log*
 
-# Ignore environment files
+# Environment files
 .env
 
-# Ignore package-lock.json (optional)
-package-lock.json
+# IDE/editor files
+*.iml
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Misc
+*.bak
+*.tmp
+~$*
+
+# Ignore test output
+/test-output/
+
+# Ignore manifest and generated files
+manifest.mf
+*.jar
+*.war
+*.ear
